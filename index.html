@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spektrum</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <!-- FontAwesome for social media icons -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+     <!-- css file -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container navbar-custom">
+          <!-- Logo Section -->
+          <a class="navbar-brand" href="./index.html">
+              <img  src="./assets/Logo.svg" alt="Logo" width="150">
+          </a>
+
+          <!-- Toggle button for responsive navbar -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="./index.html">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./hotel.html">HOTELS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./resort.html">RESORTS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./dinin.html">DINING</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">CONTACT US</a>
+                  </li>
+              </ul>
+          </div>
+
+          <!-- Book Now Button -->
+          <a href="./book_now.html" class="btn book-now-btn">Book Now</a>
+      </div>
+  </nav>
+    <!-- nav bar end -->
+    <!-- Hero Section -->
+    <section class="hero-section">
+  <div class="overlay"></div>
+  <div class="hero-content mb-5">
+      <h1>Discover the Perfect Blend of Business and<br> Leisure Premium hospitality for all occasions.</h1>
+      <div class="container search-container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 d-flex">
+            <h1>FIND</h1>
+            <p class="me-5">Rooms</p>
+          </div>
+        </div>
+          <div class="row justify-content-center">
+              <div class="col-md-6">
+                  <div class="search-wrapper">
+                      <div class="search-item">
+                          <label for="location">Location</label>
+                          <input type="text" class="form-control" id="location" placeholder="Enter Location">
+                      </div>
+                      <div class="search-item">
+                          <label for="checkin">Check In</label>
+                          <input type="text" class="form-control" id="checkin" placeholder="Add Dates">
+                      </div>
+                      <div class="search-item">
+                          <label for="checkout">Check Out</label>
+                          <input type="text" class="form-control" id="checkout" placeholder="Add Dates">
+                      </div>
+                      <div class="search-item">
+                          <label for="guests">Guests</label>
+                          <input type="text" class="form-control" id="guests" placeholder="Add Guests">
+                      </div>
+                      <button class="btn btn-search"><i class="bi bi-search"></i></button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    </section>
+    <!-- Hero Section end-->
+     <!-- about as section -->
+     <section class="about-section">
+      <div class="container">
+          <div class="row">
+              <!-- Text Column -->
+              <div class="col-md-8">
+                  <h2>About Spektrum</h2>
+                  <h3>Hotels & Resorts</h3>
+                  <div class="underline"></div>
+                  <p>
+                      Everyone is a part of the Spektrum. Our community extends, reaches, and helps everyone identify with who they are.
+                  </p>
+                  <p>
+                      At Spektrum, we believe that creating exceptional spaces is more than just a job, “it’s a passion”. Our philosophy is to approach every project with a commitment to excellence, innovation, and sustainability, and to create spaces that improve and amplify the lives of people.
+                  </p>
+                  <p>
+                      With an emphasis on individualized services, cutting-edge design, and eco-friendliness, our brand concept is to deliver a smooth experience for our customers. We think that a hotel’s atmosphere, service, and location are just as important as the quality of the room itself when it comes to creating a memorable stay.
+                  </p>
+                  <p class="highlight">
+                      Spektrum—where every element finds its place, and every guest finds their home.
+                  </p>
+                  <a href="./book_now.html" style="color: E39600;" class="btn btn-book-now w-25">Book Now</a>
+              </div>
+
+              <!-- Image Column -->
+              <div class="col-md-4">
+                  <img src="./assets/aboutus.svg" alt="Spektrum Hotel Image">
+              </div>
+          </div>
+      </div>
+     </section>
+     <!-- Spektrum Business and Leisure Section -->
+     <section class="spektrum-section">
+      <div class="container">
+          <div class="row row-equal g-4">
+              <!-- Spektrum Business Card -->
+              <div class="col-md-6 d-flex">
+                  <div class="card-custom card-business">
+                      <h3>Spektrum Business</h3>
+                      <p>
+                          Spektrum Business is a more extensive, dynamic setup catering to fast-paced business people coming into town from different cities or countries.
+                      </p>
+                      <p>
+                          Located in convenient spots across vibrant cities in India, the Spektrum Hotel offers some much-needed rest to these globetrotters, combined with unparalleled hospitality. The ambiance and service will help them regain their mindset ready to take on another adventurous day.
+                      </p>
+                  </div>
+              </div>
+
+              <!-- Spektrum Leisure Card -->
+              <div class="col-md-6 d-flex">
+                  <div class="card-custom card-leisure">
+                      <h3>Spektrum Leisure</h3>
+                      <p>
+                          Spektrum Grand is our leisure segment which is not just a hotel—it's an identity curated for those who enjoy indulging in the finer things in life. They cater to premium experiences across demographics and themes.
+                      </p>
+                      <p>
+                          It is a perfectly idyllic setting with stunning views. The hotel offers plenty of services such as spas, swimming pools, conference rooms, and more.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+     </section>
+     <!-- Facilities Section -->
+     <section class="facilities-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h2>We do our best <br> facilities provide you</h2>
+                  <p>Discover Your Ideal Haven: Find Your Perfect Stay at Spektrum Hotels</p>
+                  <a href="#" class="btn btn-contact">Contact Now</a>
+              </div>
+
+              <div class="col-md-8">
+                  <div class="row g-3">
+                      <!-- Facility Icons -->
+                      <div class="col-md-3">
+                          <div class="facility-box">
+                              <i class="bi bi-lightning-charge"></i>
+                              <p>EV Charging</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="facility-box">
+                              <i class="bi bi-door-open"></i>
+                              <p>EVA Women's Floor</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="facility-box">
+                              <i class="bi bi-car-front"></i>
+                              <p>Parking Area</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="facility-box">
+                              <i class="bi bi-shop"></i>
+                              <p>Restaurant</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="facility-box">
+                              <i class="bi bi-building"></i>
+                              <p>Mini Banquet Hall</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="facility-box">
+                              <i class="bi bi-display"></i>
+                              <p>Conference Room</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="facility-box">
+                              <i class="bi bi-cone-striped"></i>
+                              <p>Room Service</p>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="facility-box">
+                              <i class="bi bi-three-dots"></i>
+                              <p>Other Services</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+     </section>
+
+    <!-- Contact Section -->
+     <div class="container">
+    <section class="contact-section">
+      <div class="container h-100">
+          <div class="row h-100">
+              <div class="col-md-6 contact-content">
+                  <h2>Try Connecting With Us</h2>
+                  <p>Know about more, book your hotel...</p>
+                  <a href="#" class="btn btn-contact w-25">Contact Us</a>
+              </div>
+          </div>
+      </div>
+  </section>
+     </div>
+
+     <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+          <div class="row">
+              <!-- FAQ Title Section -->
+              <div class="col-md-5 faq-title">
+                  <h2>Frequently Asked <br><span>Questions</span></h2>
+                  <p>You can book massages 7 days a week from 6 am to 11 pm,<br> including public holidays.</p>
+              </div>
+
+              <!-- Accordion Section -->
+              <div class="col-md-7">
+                  <div class="accordion" id="faqAccordion">
+                      <!-- FAQ 1 -->
+                      <div class="accordion-item mb-3">
+                          <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  How Far Is The Airport?
+                              </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                              <div class="accordion-body">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- FAQ 2 -->
+                      <div class="accordion-item mb-3">
+                          <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Tourist spots near me?
+                              </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                              <div class="accordion-body">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- FAQ 3 -->
+                      <div class="accordion-item mb-3">
+                          <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Food that I should try in Bangalore?
+                              </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                              <div class="accordion-body">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+   <!-- Footer Section -->
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Logo and Description -->
+            <div class="col-md-3">
+                <img src="./assets/Logo.svg" alt="Spektrum Logo" style="max-width: 150px; margin-bottom: 20px;">
+                <p class="mt-3">
+                    The Spektrum is the perfect companion to a wayfarer, irrespective of the purpose of their visit.
+                </p>
+            </div>
+
+            <!-- Company Links -->
+            <div class="col-md-3">
+                <h5>COMPANY</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Legal Information</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Help Center Links -->
+            <div class="col-md-3">
+                <h5>HELP CENTER</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Business Events</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-3">
+                <h5>CONTACT INFO</h5>
+                <p>Phone: +91 11 2244 2424</p>
+                <p>Email: <a href="mailto:contact.blgrl@spektrumhotels.com">contact.blgrl@spektrumhotels.com</a></p>
+                <p>Location: Banglore</p>
+
+                <!-- Social Media Links -->
+                <div class="social-icons mt-3">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom Section -->
+    <div class="footer-bottom">
+        <div class="container">
+            <p><strong>© 2024 Spektrumhotems.com | All rights reserved | The Spektrum, for you.</strong></p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <!-- Bootstrap JS with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

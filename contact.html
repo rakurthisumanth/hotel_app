@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FontAwesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- css file -->
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <div class="container navbar-custom">
+            <!-- Logo Section -->
+            <a class="navbar-brand" href="./index.html">
+                <img src="../assets/Logo.svg" alt="Logo" width="150">
+            </a>
+            <!-- Toggle button for responsive navbar -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hotel.html">HOTELS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./resort.html">RESORTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./dinin.html">DINING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Book Now Button -->
+            <a href="#" class="btn book-now-btn">Book Now</a>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <div class="container">
+            <!-- Title Section -->
+            <div class="contact-title">
+                <h2>Contact Us</h2>
+                <p>Book your stay or learn more about our amenities</p>
+            </div>
+            <!-- Contact Form and Info Row -->
+            <div class="card" style="border: none; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); border-radius: 5px;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="contact-info">
+                                <h4 class="pb-2">Contact Information</h4>
+                                <p>Say something to start a live chat!</p>
+                                <div class="row pb-4 pt-4">
+                                    <div class="col-2"><i class="fas fa-phone-alt"></i></div>
+                                    <div class="col-10">
+                                        <p> +91 11 2244 2424</p>
+                                        <p> +91 11 2244 2425</p>
+                                        <p> +91 11 2244 2426</p>
+                                        <p> +91 11 2244 2427</p>
+                                        <p> +91 11 2244 2428</p>
+                                    </div>
+                                </div>
+                                <div class="row pb-4 pt-1">
+                                    <div class="col-2"><i class="fas fa-envelope"></i></div>
+                                    <div class="col-10">
+                                        <p><a href="mailto:reservations.bglr@spektrumhotels.com">reservations.bglr@spektrumhotels.com</a>
+                                        </p>
+                                        <p><a href="mailto:contact.bglr@spektrumhotels.com">contact.bglr@spektrumhotels.com</a>
+                                        </p>
+                                        <p>
+                                    </div>
+                                </div>
+                                <div class="row pt-4">
+                                <div class="col-2"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="col-8">
+                                    <p> 37, S No. 89, DownTown Park,
+                                        Shettigere Village, Jala Hobli, Kuduregere North Taluka,Sadahalli Gate Signal, Nr.
+                                        International Airport Toll Gate,Bengaluru, Karnataka, India-562157.</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <!-- Contact Form (Right Column) -->
+                        <div class="col-md-7">
+                            <div class="contact-form">
+                                <form action="#">
+                                    <div class="row pb-5">
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" placeholder="First Name" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" placeholder="Last Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="row pb-5">
+                                        <div class="col-md-6">
+                                            <input type="email" class="form-control" placeholder="Email" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="tel" class="form-control" placeholder="Phone Number" required value="+91">
+                                        </div>
+                                    </div>
+                            
+                                    <h6>Select Subject?</h6>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="subject" id="booking" value="booking" checked>
+                                        <label class="form-check-label" for="booking">Booking</label>
+                                    </div>
+                                    <div class="form-check form-check-inline pt-3">
+                                        <input class="form-check-input" type="radio" name="subject" id="inquiry" value="inquiry">
+                                        <label class="form-check-label" for="inquiry">General Inquiry</label>
+                                    </div>
+                            
+                                    <textarea class="form-control pt-5" rows="1" placeholder="Write your message..." required></textarea>
+                            
+                                    <button type="submit" class="btn btn-submit mt-3 float-end">Send Message</button>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- Font Awesome and Bootstrap JS -->

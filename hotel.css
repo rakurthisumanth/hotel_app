@@ -1,0 +1,207 @@
+/* nav bar start */
+.navbar-custom {
+    justify-content: space-between;
+  }
+  /* Right-align the nav menu */
+  .navbar-nav {
+    margin-left: auto; /* Align the menu to the right */
+  }
+  .navbar-nav .nav-link {
+    color: #444;
+    font-weight: bold;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .nav-link:hover {
+    color: teal;
+  }
+  .book-now-btn {
+    background-color: #D89834;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  .book-now-btn:hover {
+    background-color: #D89834;
+  }
+  /* nav bar end */
+
+  /* start SPEKTRUM BENGALURU HOTEL */
+  .hotel-header {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .hotel-description {
+    margin-bottom: 30px;
+  }
+
+  .filters-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .filter-item {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .results-found {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .filter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+
+  .filter-btn:hover {
+    background-color: #f0f0f0;
+  }
+
+  .hotel-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hotel-logo img {
+    max-width: 100%;
+  }
+
+   /* end SPEKTRUM BENGALURU HOTEL */
+
+    /* start section two */
+    .room-container {
+      /* position: relative; */
+      /* max-width: 1200px; */
+      /* margin: 0 auto; */
+    }
+    
+    .room-image {
+      width: 100% !important;
+      height: auto;
+      border-radius: 25px;
+    }
+    
+    .room-details {
+      background-color: #fff;
+      width: 85%;
+      margin-top: -150px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .book-btn {
+      padding: 10px 20px;
+      background-color: #F5A623;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+    }
+    
+    .room-icons span {
+      font-size: 1.2rem;
+    }
+    
+   /* end section two */
+
+
+     /* Footer main styles */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.footer p,
+.footer a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #ffa500;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    padding: 10px 0;
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Social media icons */
+.social-icons a {
+    margin-right: 15px;
+    color: #333;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #ffa500;
+}
+/* Footer main styles end*/
+
+.amenity-card {
+            background-color: #eaf7f9;
+            border-radius: 8px;
+            text-align: center;
+            padding: 20px;
+        }
+        .price-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .strike-text {
+            text-decoration: line-through;
+            color: #888;
+        }
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .book-btn {
+            background-color: #f0ad4e;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            width: 100%;
+            padding: 10px;
+            margin-top: 15px;
+        }
+        .book-btn:hover {
+            background-color: #ec971f;
+        }
+

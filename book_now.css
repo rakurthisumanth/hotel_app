@@ -1,0 +1,263 @@
+  /* Footer main styles */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.footer p,
+.footer a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #ffa500;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    padding: 10px 0;
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Social media icons */
+.social-icons a {
+    margin-right: 15px;
+    color: #333;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #ffa500;
+}
+/* Footer main styles end*/
+
+.navbar-custom {
+    justify-content: space-between;
+  }
+  
+  /* Right-align the nav menu */
+  .navbar-nav {
+    margin-left: auto; /* Align the menu to the right */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #444;
+    font-weight: bold;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  
+  .nav-link:hover {
+    color: teal;
+  }
+  
+  .book-now-btn {
+    background-color: #D89834;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #D89834;
+  }
+  /* nav bar end */
+
+  /*starts gallery */
+  .gallery-img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.more-photos {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.photo-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+  /*ends gallery */
+
+  /* Amenity card styling */
+  .amenity-card {
+    background-color: #23AAA6;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+}
+.amenity-card p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.amenity-card i {
+    font-size: 24px;
+    color: #ffffff;
+}
+/* Price card styling */
+.price-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.strike-text {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+}
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d9534f;
+}
+.book-btn {
+    background-color: #E39600;;
+    border: none;
+    border-radius: 42px;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+}
+.book-btn:hover {
+    background-color: #ec971f;
+}
+/* Inquiry and contact link styling */
+.info-links a {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 14px;
+}
+.info-links a:hover {
+    text-decoration: underline;
+}
+.text-small {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+ /* Styling for the amenities section */
+ .amenities-section {
+    margin-top: 30px;
+}
+.amenities-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.amenity-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.amenity-item i {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #6c757d;
+}
+.show-all-btn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+.show-all-btn:hover {
+    background-color: #f8f9fa;
+}
+
+/* Nearby Services Card Styling */
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service-card .rating {
+    color: #17a2b8;
+}
+.arrow-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #17a2b8;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-left: auto;
+}
+.map-btn {
+    background-color: #f0ad4e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.map-btn:hover {
+    background-color: #ec971f;
+}
+/* Review Section Styling */
+.review-title {
+    font-weight: 600;
+    margin-top: 40px;
+}
+.rating-stars {
+    color: #f0ad4e;
+}
+.rating-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    position: relative;
+}
+.rating-fill {
+    background-color: #28a745;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.review-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}

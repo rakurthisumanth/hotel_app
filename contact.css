@@ -1,0 +1,159 @@
+     /* Main container styling */
+     .contact-section {
+        padding: 50px 0;
+    }
+
+    .contact-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contact-title h2 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .contact-title p {
+        font-size: 16px;
+        color: #6c757d;
+    }
+
+    /* Left-side contact information styling */
+    .contact-info {
+        background-color: #23AAA6;
+        color: white;
+        border-radius: 10px;
+        padding: 30px;
+        height: 100%;
+    }
+
+    .contact-info p,
+    .contact-info a {
+        font-size: 14px;
+        color: white;
+    }
+
+    .contact-info a:hover {
+        color: #ffd700;
+        text-decoration: none;
+    }
+
+    .contact-info i {
+        margin-right: 10px;
+    }
+
+ /* Form styling */
+.contact-form {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #000;
+    border-radius: 0;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom-color: #ffa500;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+textarea {
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 5px 0;
+    font-size: 16px;
+    resize: none;
+}
+
+h6 {
+    margin-bottom: 10px;
+}
+
+.form-check-inline {
+    margin-right: 15px;
+}
+
+.btn-submit {
+    background-color: #D89834;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #D89834;
+}
+
+input[type="radio"]:checked + label {
+    color: #00A651;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav bar start */
+.navbar-custom {
+    justify-content: space-between;
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Align the menu to the right */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #444;
+    font-weight: bold;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  
+  .nav-link:hover {
+    color: teal;
+  }
+  
+  .book-now-btn {
+    background-color: #ffa500;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #e69500;
+  }
+  /* nav bar end */
+  
